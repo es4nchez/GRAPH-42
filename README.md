@@ -29,7 +29,7 @@ Before you begin, ensure you have Python 3.9 installed on your system.
    pip install -r requirements.txt
    ```
 
-4. **Get you Creds**:
+4. **Get your Creds**:
    ```bash
    mv example.config.yml config.yml
    ```
