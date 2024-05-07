@@ -1,4 +1,4 @@
-# VIP_42_API
+# Gr4fik
 
 `python3 -m venv venv` <br />  
 `source venv/bin/activate` <br />  
