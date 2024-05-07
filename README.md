@@ -29,6 +29,11 @@ Before you begin, ensure you have Python 3.9 installed on your system.
    pip install -r requirements.txt
    ```
 
+4. **Get you Creds**:
+   ```bash
+   mv example.config.yml config.yml
+   ```
+   And fill it up with your credentials from you 42 app
 ### Usage
 To run the application, execute the following command in the terminal:
    ```bash
