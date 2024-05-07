@@ -33,7 +33,7 @@ Before you begin, ensure you have Python 3.9 installed on your system.
    ```bash
    mv example.config.yml config.yml
    ```
-   And fill it up with your credentials from you 42 app
+   And fill it up with your credentials from your 42 app
 ### Usage
 To run the application, execute the following command in the terminal:
    ```bash
