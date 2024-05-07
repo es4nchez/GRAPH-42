@@ -8,7 +8,6 @@ import json
 import yaml
 import logging
 import csv
-from export import export_to_csv, export_to_json
 
 
 class RequestWorker(QThread):
@@ -335,7 +334,7 @@ class IntraAPIClient(QWidget):
                         print(item)
                     except Exception as e:
                         print(f"Error parsing date: {e}")
-                        item = QStandardItem(value)
+                        item = QStandardItem(value)  # Use original value if parsing fails
                 elif isinstance(value, (int, float)):
                     item = QStandardItem()
                     item.setData(value, Qt.DisplayRole)
